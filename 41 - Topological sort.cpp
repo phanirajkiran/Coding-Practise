@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <stack>
 using namespace std;
 const int MAX = 100;
 void dfs(int i,int V,bool G[][MAX],stack<int> &s,bool vis[]){
